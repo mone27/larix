@@ -1,4 +1,4 @@
-# larix
+# Larix
 Laser Infrastructure library
 
 modern
