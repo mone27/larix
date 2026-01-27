@@ -70,6 +70,13 @@
     "text": "Robust\nThe foundation layer needs to be rock solid, this means it should be well tested so we can expect its stability and reliability. Moreover, when error occurs it should strive to provide meaningful and actionable error messages."
   },
   {
+    "objectID": "design_goals.html#spatial-support",
+    "href": "design_goals.html#spatial-support",
+    "title": "Design Goals",
+    "section": "Spatial support",
+    "text": "Spatial support\nPoint Clouds are often connected to geographic coordinates (e.g. from Airborne Laser Scanning). We need full support for spatial features, like Coordinate Reference Systems, and integration with spatial data to enable features such as clip by a polygon"
+  },
+  {
     "objectID": "design_goals.html#fast-1",
     "href": "design_goals.html#fast-1",
     "title": "Design Goals",
