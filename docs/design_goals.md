@@ -32,10 +32,11 @@ Efficient point cloud processing can unlock
 2. Scalable, transparently scale from a single core, to large than memory dataset to an entire cluster
 3. Modern hardware, optimized for GPUs and modern CPUs
 4. Multi-level API, expose API from all levels of abstractions
-5. All LiDAR sensors, from robotic LiDAR to full-waveform satellite LiDAR
-6. Visualization, effective and efficient point cloud visualization
+5. All LiDAR sensors, from robotic LiDAR to full-waveform spaceborn LiDAR
+6. Visualization, effective and efficient point cloud visualization and annotation
 7. Machine Learning, easy interoperability with machine learning frameworks
 8. Robust, well tested and proper error handling
+9. Spatial support, point cloud as fully fledged geographic data
 
 ## Why
 
@@ -85,6 +86,10 @@ A lot of recent innovation in point cloud processing (e.g. segmentation) utilize
 
 The foundation layer needs to be rock solid, this means it should be well tested so we can expect its stability and reliability.
 Moreover, when error occurs it should strive to provide meaningful and actionable error messages.
+
+## Spatial support
+
+Point Clouds are often connected to geographic coordinates (e.g. from Airborne Laser Scanning). We need full support for spatial features, like Coordinate Reference Systems, and integration with spatial data to enable features such as clip by a polygon
 
 # How
 
